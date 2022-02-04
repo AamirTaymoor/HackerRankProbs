@@ -1,7 +1,7 @@
 """ this is solution to the collections.deque() problem of HackerRank python problem."""
 from collections import deque
 
-N = int(input("Enter the number of operations to be performed:"))
+N = int(input())
 d = deque()
 for _ in range(N):
     ops =list( input().split())
